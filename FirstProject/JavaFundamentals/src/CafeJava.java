@@ -25,11 +25,12 @@ public class CafeJava {
         // boolean isReadyOrder3 = false;
         boolean isReadyOrder4 = true;
         //appinteractions
-        
+
         // APP INTERACTION SIMULATION (Add your code for the challenges below)
         // Example:
         System.out.println(generalGreeting + customer1 + pendingMessage); // Displays "Welcome to Cafe Java, Cindhuri"
     	// ** Your customer interaction print statements will go here ** //
+        //if true then proceed
         if (isReadyOrder4 == true) {
             System.out.println(customer4 + readyMessage + ". " +displayTotalMessage + cappucino);
         } else {
