@@ -12,4 +12,11 @@ public class CafeUtil {
         }
         return sum;
     }
+    public double getOrderTotal(double[] prices) {
+        double sum = 0;
+        for (double price : prices) {
+          sum += price;
+        }
+        return sum;
+      }
 }
